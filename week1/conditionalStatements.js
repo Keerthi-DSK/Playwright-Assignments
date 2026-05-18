@@ -29,10 +29,10 @@ function runTests(testType) {
       break;
   }
 }
-//launchBrowser("chrome");      
+launchBrowser("chrome");      
 launchBrowser("firefox");     
 
-//runTests("smoke");            
+runTests("smoke");            
 runTests("sanity");           
-// runTests("regression");       
-// runTests("performance");      
+runTests("regression");       
+runTests("performance");      
